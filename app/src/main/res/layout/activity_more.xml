@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <RelativeLayout
+        android:id="@+id/more_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#2C0043">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:text="更多"/>
+        <TextView
+            android:id="@+id/more_clean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:text="清空"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/more_ll"
+        android:layout_below="@+id/more_title"
+        android:layout_above="@+id/more_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80dp"
+        android:orientation="horizontal">
+        <ListView
+            android:id="@+id/more_lv1"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
+        </ListView>
+        <ListView
+            android:id="@+id/more_lv2"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:background="#EEEEEE"
+            android:layout_height="match_parent">
+        </ListView>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/more_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#2C0043"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:text="确定"/>
+
+</RelativeLayout>

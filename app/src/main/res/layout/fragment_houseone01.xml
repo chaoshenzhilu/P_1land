@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <ImageView
+        android:id="@+id/fragment01_iv1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/defult_onepic"
+        android:scaleType="fitXY"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/simple_black"/>
+    <TextView
+        style="@style/MyTextView"
+        android:layout_margin="10dp"
+        android:text="房源描述"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/simple_black" />
+
+    <TextView
+        android:id="@+id/fragment01_tv1"
+        style="@style/MyTextView"
+        android:layout_margin="10dp"
+        android:textColor="#626868" />
+
+    <ImageView
+        android:id="@+id/fragment01_iv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="10dp"
+        android:src="@mipmap/first_down"/>
+
+</LinearLayout>

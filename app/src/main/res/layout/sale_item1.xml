@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="155dp"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <ImageView
+            android:id="@+id/sale_oneiv"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/defult_twopic" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_alignBottom="@+id/sale_oneiv"
+            android:layout_alignTop="@+id/sale_oneiv"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/sale_oneiv">
+
+            <LinearLayout
+                android:id="@+id/sale_onell"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+                    <TextView
+                        android:id="@+id/sale_onetv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:maxLines="2"
+                        android:text="黑色标题"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/sale_ll"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/sale_onetv2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:text="地址" />
+
+                            <TextView
+                                android:id="@+id/sale_onetv3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:text="面积" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/sale_onetv5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/towhand_tv1"
+                                android:textColor="#4D99CF"
+                                android:visibility="gone"
+                                android:textSize="10sp"
+                                android:gravity="center"
+                                android:padding="2dp"
+                                android:text="标签1" />
+
+                            <TextView
+                                android:id="@+id/sale_onetv6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/towhand_tv2"
+                                android:textColor="#E8D3A0"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:visibility="gone"
+                                android:textSize="10sp"
+                                android:gravity="center"
+                                android:padding="2dp"
+                                android:text="标签2" />
+
+                            <TextView
+                                android:id="@+id/sale_onetv7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/towhand_tv3"
+                                android:textColor="#B68367"
+                                android:visibility="gone"
+                                android:textSize="10sp"
+                                android:gravity="center"
+                                android:padding="2dp"
+                                android:text="标签3" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/sale_onetv4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:text="价格"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="16dp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/sale_yuanrl"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="@color/list_divider_light"
+        android:visibility="gone"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/sale_yuan1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/entrust_type_unchecked"/>
+    </RelativeLayout>
+</LinearLayout>

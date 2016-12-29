@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@android:color/white">
+    <include layout="@layout/titleinclude"/>
+    <View
+        android:id="@+id/onehand_view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/online_title"
+        android:background="#dadada"
+        />
+    <LinearLayout
+        android:id="@+id/onehand_ll"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/onehand_view"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:id="@+id/onehand_rlquyu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/onehand_quyu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@mipmap/filter_down"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                android:drawablePadding="5dp"
+                android:text="区域"/>
+        </RelativeLayout>
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#dadada" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#dadada" />
+        <RelativeLayout
+            android:id="@+id/onehand_rljunjia"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/onehand_junjia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@mipmap/filter_down"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                android:drawablePadding="5dp"
+                android:text="均价"/>
+        </RelativeLayout>
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#dadada" />
+        <RelativeLayout
+            android:id="@+id/onehand_rlmore"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/onehand_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@mipmap/filter_down"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                android:drawablePadding="5dp"
+                android:text="更多"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/online_ll"
+        android:background="#dadada" />
+    <com.bwf.p_1land.view.RefreshListView
+        android:id="@+id/onehand_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:divider="@null"
+        android:layout_below="@+id/onehand_ll"/>
+    <LinearLayout
+        android:id="@+id/sale_fail_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/online_ll"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/map_fail"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:text="暂无数据"/>
+    </LinearLayout>
+
+</RelativeLayout>

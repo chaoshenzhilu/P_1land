@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="5dp">
+    <TextView
+       style="@style/MyTextView18black"
+        android:layout_marginTop="5dp"
+        android:text="交通配套"/>
+    <TextView
+        android:id="@+id/fragmen07_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_14"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="5dp"
+        android:layout_marginBottom="5dp"
+        android:drawableLeft="@mipmap/icon_geo1"/>
+    <ImageView
+        android:id="@+id/fragmen07_iv"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/defult_onepic"/>
+</LinearLayout>

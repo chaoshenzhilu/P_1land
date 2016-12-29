@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/seacher_itemiv"
+        android:layout_width="match_parent"
+        android:layout_height="160dip"
+        android:scaleType="fitXY"
+        android:src="@mipmap/defult_onepic"/>
+    <TextView
+        android:id="@+id/seacher_itemtv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:text="标题"/>
+    <TextView
+        android:id="@+id/search_itemtv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:lines="1"
+        android:text="大标题"/>
+    <TextView
+        android:id="@+id/search_itemtv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:padding="5dp"
+        android:textSize="14sp"
+        android:lines="1"
+        android:text="小标题"/>
+
+</LinearLayout>

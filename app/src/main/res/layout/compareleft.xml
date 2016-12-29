@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:gravity="center"
+        android:text="实勘图"
+        android:background="@drawable/comparshape"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:gravity="center"
+        android:text="户型图"
+        android:background="@drawable/comparshape"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="价格:"
+        android:background="@drawable/comparshape"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="总成本:"
+        android:background="@drawable/comparshape"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="营业税:"
+        android:background="@drawable/comparshape"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="个税:"
+        android:background="@drawable/comparshape"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="契税:"
+        android:background="@drawable/comparshape"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="首套可贷:"
+        android:background="@drawable/comparshape"
+        android:textColor="@android:color/black"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="二套可贷:"
+        android:background="@drawable/comparshape"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="居室:"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="面积:"
+        android:background="@drawable/comparshape"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="楼层:"
+        android:background="@drawable/comparshape"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="朝向:"
+        android:background="@drawable/comparshape"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="装修:"
+        android:background="@drawable/comparshape"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="学校名称:"
+        android:background="@drawable/comparshape"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="学校级别:"
+        android:background="@drawable/comparshape"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="是否划片:"
+        android:background="@drawable/comparshape"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="上学距离:"
+        android:background="@drawable/comparshape"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="城区:"
+        android:background="@drawable/comparshape"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="商圈:"
+        android:background="@drawable/comparshape"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="地址:"
+        android:background="@drawable/comparshape"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="建成年限:"
+        android:background="@drawable/comparshape"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="住宅年代:"
+        android:background="@drawable/comparshape"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:gravity="center"
+        android:text="推荐顾问:"
+        android:background="@drawable/comparshape"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="电话:"
+        android:background="@drawable/comparshape"
+        android:textColor="@android:color/black" />
+</LinearLayout>

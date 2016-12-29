@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#321344">
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:drawableLeft="@mipmap/first_search"
+            android:paddingLeft="5dp"
+            android:drawablePadding="5dp"
+            android:background="@drawable/online_et"
+            android:hint="请输入关键字"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:padding="15dp"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/seacher_bar_bg"/>
+    </RelativeLayout>
+
+</LinearLayout>
